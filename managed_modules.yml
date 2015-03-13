@@ -1,0 +1,20 @@
+---
+  - puppet-ceilometer
+  - puppet-cinder
+  - puppet-designate
+  - puppet-glance
+  - puppet-gnocchi
+  - puppet-heat
+  - puppet-horizon
+  - puppet-ironic
+  - puppet-keystone
+  - puppet-neutron
+  - puppet-nova
+  - puppet-openstacklib
+  - puppet-sahara
+  - puppet-swift
+  - puppet-tempest
+  - puppet-tripleo
+  - puppet-trove
+  - puppet-tuskar
+  - puppet-vswitch
