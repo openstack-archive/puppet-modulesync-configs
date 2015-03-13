@@ -1,0 +1,39 @@
+source ENV['GEM_SOURCE'] || "https://rubygems.org"
+
+<% groups = {} -%>
+<% (@configs['required'].keys + ((@configs['optional'] || {}).keys)).uniq.each do |key| -%>
+<%   groups[key] = (@configs['required'][key] || []) + ((@configs['optional'] || {})[key] || []) -%>
+<% end -%>
+<% -%>
+<% groups.each do |group, gems| -%>
+group <%= group %> do
+<% maxlen = gems.map! do |gem| -%>
+<%            { -%>
+<%              'gem'     => gem['gem'], -%>
+<%              'version' => gem['version'], -%>
+<%              'git'     => gem['git'], -%>
+<%              'branch'  => gem['branch'], -%>
+<%              'length'  => gem['gem'].length + (("', '".length if gem['version']) || 0) + gem['version'].to_s.length -%>
+<%            } -%>
+<%          end.map do |gem| -%>
+<%            gem['length'] -%>
+<%          end.max -%>
+<% gems.each do |gem| -%>
+  gem '<%= gem['gem'] %>'<%= ", '#{gem['version']}'" if gem['version'] %>, <%= ' ' * (maxlen - gem['length']) %> :require => false<%= ", :git => '#{gem['git']}'" if gem['git'] %><%= ", :branch => '#{gem['branch']}'" if gem['branch'] %>
+<% end -%>
+end
+
+<% end -%>
+if facterversion = ENV['FACTER_GEM_VERSION']
+  gem 'facter', facterversion, :require => false
+else
+  gem 'facter', :require => false
+end
+
+if puppetversion = ENV['PUPPET_GEM_VERSION']
+  gem 'puppet', puppetversion, :require => false
+else
+  gem 'puppet', :require => false
+end
+
+# vim:ft=ruby
