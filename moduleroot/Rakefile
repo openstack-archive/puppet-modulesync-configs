@@ -12,7 +12,7 @@ PuppetLint::RakeTask.new :lint do |config|
   config.ignore_paths = ["spec/**/*.pp", "vendor/**/*.pp"]
   config.fail_on_warnings = true
   config.log_format = '%{path}:%{linenumber}:%{KIND}: %{message}'
-  config.disable_checks = <% @configs['default_disabled_lint_checks'] + ( @configs['extra_disabled_lint_checks'] || [] ) -%>
+  config.disable_checks = <%= @configs['default_disabled_lint_checks'] + ( @configs['extra_disabled_lint_checks'] || [] ) %>
 end
 
 desc "Run acceptance tests"
