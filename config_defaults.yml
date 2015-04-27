@@ -1,0 +1,25 @@
+---
+Gemfile:
+  required:
+    ':development, :test':
+      - gem: puppetlabs_spec_helper
+      - gem: rspec-puppet
+        version: '~> 2.1.0'
+      - gem: metadata-json-lint
+      - gem: puppet-lint-param-docs
+      - gem: puppet-lint-absolute_classname-check
+      - gem: puppet-lint-absolute_template_path
+      - gem: puppet-lint-trailing_newline-check
+      - gem: puppet-lint-unquoted_string-check
+      - gem: puppet-lint-leading_zero-check
+      - gem: puppet-lint-variable_contains_upcase
+      - gem: puppet-lint-numericvariable
+      - gem: json
+      - gem: webmock
+    ':system_tests':
+      - gem: beaker-rspec
+Rakefile:
+  default_disabled_lint_checks:
+  - 'disable_80chars'
+  - 'disable_class_inherits_from_params_class'
+  - 'disable_class_parameter_defaults'
