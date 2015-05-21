@@ -14,3 +14,8 @@ PuppetLint::RakeTask.new :lint do |config|
   config.log_format = '%{path}:%{linenumber}:%{KIND}: %{message}'
   config.disable_checks = <% @configs['default_disabled_lint_checks'] + ( @configs['extra_disabled_lint_checks'] || [] ) -%>
 end
+
+desc "Run acceptance tests"
+RSpec::Core::RakeTask.new(:acceptance) do |t|
+  t.pattern = 'spec/acceptance'
+end
