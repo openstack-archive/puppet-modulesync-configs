@@ -11,6 +11,7 @@ group <%= group %> do
 <%            { -%>
 <%              'gem'     => gem['gem'], -%>
 <%              'version' => gem['version'], -%>
+<%              'require' => gem['require'], -%>
 <%              'git'     => gem['git'], -%>
 <%              'branch'  => gem['branch'], -%>
 <%              'length'  => gem['gem'].length + (("', '".length if gem['version']) || 0) + gem['version'].to_s.length -%>
@@ -19,7 +20,7 @@ group <%= group %> do
 <%            gem['length'] -%>
 <%          end.max -%>
 <% gems.each do |gem| -%>
-  gem '<%= gem['gem'] %>'<%= ", '#{gem['version']}'" if gem['version'] %>, <%= ' ' * (maxlen - gem['length']) %> :require => false<%= ", :git => '#{gem['git']}'" if gem['git'] %><%= ", :branch => '#{gem['branch']}'" if gem['branch'] %>
+  gem '<%= gem['gem'] %>'<%= ", '#{gem['version']}'" if gem['version'] %>, <%= ' ' * (maxlen - gem['length']) %><%= ":require => '#{gem['require'] || false}'" %><%= ", :git => '#{gem['git']}'" if gem['git'] %><%= ", :branch => '#{gem['branch']}'" if gem['branch'] %>
 <% end -%>
 end
 
