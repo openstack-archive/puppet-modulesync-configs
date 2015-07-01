@@ -4,7 +4,7 @@ Gemfile:
     ':development, :test':
       - gem: puppetlabs_spec_helper
       - gem: rspec-puppet
-        version: '~> 2.1.0'
+        version: '~> 2.2.0'
       - gem: metadata-json-lint
       - gem: puppet-lint-param-docs
       - gem: puppet-lint-absolute_classname-check
