@@ -1,0 +1,4 @@
+---
+namespace: openstack
+git_base:  ssh://proposal-bot@review.openstack.org:29418/
+branch: msync_automatic_update
