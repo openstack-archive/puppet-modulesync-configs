@@ -1,0 +1,9 @@
+Verified+2: Jenkins
+Code-Review+2: Emilien Macchi <emilien@redhat.com>
+Workflow+1: Emilien Macchi <emilien@redhat.com>
+Code-Review+2: Sebastien Badia <sbadia@redhat.com>
+Submitted-by: Jenkins
+Submitted-at: Mon, 27 Jul 2015 12:54:59 +0000
+Reviewed-on: https://review.openstack.org/205048
+Project: openstack/puppet-modulesync-configs
+Branch: refs/heads/master
