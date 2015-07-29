@@ -22,8 +22,15 @@ RSpec.configure do |c|
       zuul_ref = ENV['ZUUL_REF']
       zuul_branch = ENV['ZUUL_BRANCH']
       zuul_url = ENV['ZUUL_URL']
+      zuul_project = ENV['ZUUL_PROJECT']
 
-      repo = 'openstack/puppet-openstack-integration'
+      if zuul_project.include? 'openstack-infra'
+          repo = 'openstack-infra/system-config'
+          script = 'install_modules_acceptance.sh'
+      else
+          repo = 'openstack/puppet-openstack-integration'
+          script = 'install_modules.sh'
+      end
 
       # Start out with clean moduledir, don't trust r10k to purge it
       on host, "rm -rf /etc/puppet/modules/*"
@@ -41,7 +48,7 @@ RSpec.configure do |c|
         on host, "git clone https://git.openstack.org/#{repo} #{repo}"
       end
 
-      on host, "ZUUL_REF=#{zuul_ref} ZUUL_BRANCH=#{zuul_branch} ZUUL_URL=#{zuul_url} bash #{repo}/install_modules.sh"
+      on host, "ZUUL_REF=#{zuul_ref} ZUUL_BRANCH=#{zuul_branch} ZUUL_URL=#{zuul_url} bash #{repo}/#{script}"
 
       # Install the module being tested
       on host, "rm -fr /etc/puppet/modules/#{modname}"
