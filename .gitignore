@@ -1,3 +1,4 @@
+.bundled_gems/
 modules/
 Gemfile.lock
 *.swp
