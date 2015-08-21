@@ -1,5 +1,5 @@
 ---
-namespace: stackforge
+namespace: openstack
 git_base:  ssh://jdoe@review.openstack.org:29418/
 branch: msync_foo
 remote_branch: refs/publish/master/msync_foo
