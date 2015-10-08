@@ -1,4 +1,6 @@
 ---
+  - puppet-aodh
+  - puppet-barbican
   - puppet-ceilometer
   - puppet-cinder
   - puppet-designate
@@ -9,6 +11,8 @@
   - puppet-ironic
   - puppet-keystone
   - puppet-manila
+  - puppet-mistral
+  - puppet-murano
   - puppet-neutron
   - puppet-nova
   - puppet-openstacklib
@@ -20,3 +24,4 @@
   - puppet-trove
   - puppet-tuskar
   - puppet-vswitch
+  - puppet-zaqar
