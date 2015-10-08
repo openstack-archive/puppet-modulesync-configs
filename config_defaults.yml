@@ -19,6 +19,7 @@ Gemfile:
     ':system_tests':
       - gem: beaker-rspec
       - gem: beaker-puppet_install_helper
+      - gem: r10k
 Rakefile:
   default_disabled_lint_checks:
   - '80chars'

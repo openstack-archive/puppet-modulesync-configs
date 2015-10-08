@@ -8,6 +8,7 @@ coverage/
 .idea/
 *.swp
 *.iml
+openstack/
 <% if ! @configs['paths'].nil? -%>
 <% @configs['paths'].each do |path| -%>
 <%= path %>
