@@ -61,7 +61,7 @@ the development and test groups. config_defaults.yml contains a list of
 the names and versions of the gems. This section of config_defaults.yml might
 look like
 
-``
+```
 Gemfile:
   required:
   - gem: rake
@@ -71,7 +71,7 @@ Gemfile:
     version: '~> 4.7'
     require: 'minitest/unit'
 #...
-``
+```
 
 The template also looks in .sync.yml for a group of optional gems to install,
 and merges this list with the list found in config_defaults.yml. This section
@@ -112,11 +112,11 @@ Rake tasks in the Rakefile which is difficult to manage through a template.
 To mark a file "unmanaged", list it in .sync.yml with the value `unmanaged:
 true`. For example,
 
-``
+```
 ---
 spec/spec_helper.rb:
   unmanaged: true
-``
+```
 
 ### Deleted Files
 
@@ -126,7 +126,7 @@ marking it "delete". This is useful for purging nodesets.
 To mark a file deleted, list it in .sync.yml with the value `delete: true`. For
 example,
 
-``
+```
 ---
 spec/acceptance/nodesets/sles-11sp1-x64.yml
   delete: true
