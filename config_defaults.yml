@@ -24,5 +24,4 @@ Rakefile:
   default_disabled_lint_checks:
   - '80chars'
   - 'class_inherits_from_params_class'
-  - 'class_parameter_defaults'
   - 'only_variable_string'
