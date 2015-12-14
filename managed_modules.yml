@@ -10,6 +10,7 @@
   - puppet-horizon
   - puppet-ironic
   - puppet-keystone
+  - puppet-magnum
   - puppet-manila
   - puppet-mistral
   - puppet-murano
@@ -17,11 +18,13 @@
   - puppet-nova
   - puppet-openstacklib
   - puppet-openstack_extras
+  - puppet-rally
   - puppet-sahara
   - puppet-swift
   - puppet-tempest
   - puppet-tripleo
   - puppet-trove
   - puppet-tuskar
+  - puppet-vitrage
   - puppet-vswitch
   - puppet-zaqar
