@@ -10,8 +10,10 @@
   - puppet-horizon
   - puppet-ironic
   - puppet-keystone
+  - puppet-magnum
   - puppet-manila
   - puppet-mistral
+  - puppet-monasca
   - puppet-murano
   - puppet-neutron
   - puppet-nova
@@ -23,5 +25,6 @@
   - puppet-tripleo
   - puppet-trove
   - puppet-tuskar
+  - puppet-vitrage
   - puppet-vswitch
   - puppet-zaqar
