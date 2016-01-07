@@ -5,6 +5,7 @@ Gemfile:
       - gem: puppetlabs_spec_helper
       - gem: rspec-puppet
         version: '~> 2.2.0'
+      - gem: rspec-puppet-facts
       - gem: metadata-json-lint
       - gem: puppet-lint-param-docs
       - gem: puppet-lint-absolute_classname-check
@@ -16,6 +17,8 @@ Gemfile:
       - gem: puppet-lint-numericvariable
       - gem: json
       - gem: webmock
+      - gem: 'puppet-openstack_spec_helper'
+        git: 'https://git.openstack.org/openstack/puppet-openstack_spec_helper'
     ':system_tests':
       - gem: beaker-rspec
       - gem: beaker-puppet_install_helper
