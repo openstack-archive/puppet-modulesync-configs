@@ -24,7 +24,6 @@
   - puppet-tempest
   - puppet-tripleo
   - puppet-trove
-  - puppet-tuskar
   - puppet-vitrage
   - puppet-vswitch
   - puppet-zaqar
