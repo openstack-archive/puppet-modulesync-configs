@@ -1,0 +1,9 @@
+Code-Review+2: Alex Schultz <aschultz@mirantis.com>
+Code-Review+2: Matt Fischer <matt@mattfischer.com>
+Workflow+1: Matt Fischer <matt@mattfischer.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 07 Jan 2016 19:23:29 +0000
+Reviewed-on: https://review.openstack.org/264833
+Project: openstack/puppet-modulesync-configs
+Branch: refs/heads/master
