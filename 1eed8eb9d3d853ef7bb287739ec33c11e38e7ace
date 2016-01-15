@@ -1,0 +1,11 @@
+Code-Review+2: Emilien Macchi <emilien@redhat.com>
+Code-Review+1: Gael Chamoulaud <gchamoul@redhat.com>
+Code-Review+1: Swami Reddy <swamireddy@gmail.com>
+Code-Review+2: Colleen Murphy <colleen@gazlene.net>
+Workflow+1: Colleen Murphy <colleen@gazlene.net>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 15 Jan 2016 19:14:10 +0000
+Reviewed-on: https://review.openstack.org/264830
+Project: openstack/puppet-modulesync-configs
+Branch: refs/heads/master
