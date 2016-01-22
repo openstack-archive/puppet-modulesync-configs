@@ -16,7 +16,6 @@ Gemfile:
       - gem: puppet-lint-variable_contains_upcase
       - gem: puppet-lint-numericvariable
       - gem: json
-      - gem: webmock
       - gem: 'puppet-openstack_spec_helper'
         git: 'https://git.openstack.org/openstack/puppet-openstack_spec_helper'
     ':system_tests':
