@@ -1,0 +1,9 @@
+Code-Review+2: Denis Egorenko <degorenko@mirantis.com>
+Code-Review+2: Alex Schultz <aschultz@mirantis.com>
+Workflow+1: Alex Schultz <aschultz@mirantis.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 22 Jan 2016 20:56:45 +0000
+Reviewed-on: https://review.openstack.org/271341
+Project: openstack/puppet-modulesync-configs
+Branch: refs/heads/master
