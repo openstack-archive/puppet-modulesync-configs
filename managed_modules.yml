@@ -18,6 +18,7 @@
   - puppet-nova
   - puppet-openstacklib
   - puppet-openstack_extras
+  - puppet-oslo
   - puppet-rally
   - puppet-sahara
   - puppet-swift
