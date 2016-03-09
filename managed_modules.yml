@@ -16,6 +16,7 @@
   - puppet-murano
   - puppet-neutron
   - puppet-nova
+  - puppet-octavia
   - puppet-openstacklib
   - puppet-openstack_extras
   - puppet-oslo
