@@ -1,27 +1,9 @@
 ---
 Gemfile:
   required:
-    ':development, :test':
-      - gem: puppetlabs_spec_helper
-      - gem: rspec-puppet
-        version: '~> 2.2.0'
-      - gem: rspec-puppet-facts
-      - gem: metadata-json-lint
-      - gem: puppet-lint-param-docs
-      - gem: puppet-lint-absolute_classname-check
-      - gem: puppet-lint-absolute_template_path
-      - gem: puppet-lint-trailing_newline-check
-      - gem: puppet-lint-unquoted_string-check
-      - gem: puppet-lint-leading_zero-check
-      - gem: puppet-lint-variable_contains_upcase
-      - gem: puppet-lint-numericvariable
-      - gem: json
+    ':development, :test, :system_tests':
       - gem: 'puppet-openstack_spec_helper'
         git: 'https://git.openstack.org/openstack/puppet-openstack_spec_helper'
-    ':system_tests':
-      - gem: beaker-rspec
-      - gem: beaker-puppet_install_helper
-      - gem: r10k
 Rakefile:
   default_disabled_lint_checks:
   - '80chars'
