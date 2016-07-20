@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+# functions - puppet-openstack_spec_helper specific functions
+#
+
+install_module() {
+  local current_dir=$(cd `dirname $0` && pwd -P)
+  if [ -e /usr/zuul-env/bin/zuul-cloner ] ; then
+      /usr/zuul-env/bin/zuul-cloner --cache-dir /opt/git \
+          git://git.openstack.org openstack/puppet-openstack-cookiecutter
+  else
+      git clone git://git.openstack.org/openstack/puppet-openstack-cookiecutter openstack/puppet-openstack-cookiecutter
+  fi
+  cd $current_dir/openstack/puppet-openstack-cookiecutter
+  ls -al
+  source functions
+  prepare_environment
+}
