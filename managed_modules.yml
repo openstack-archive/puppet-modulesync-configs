@@ -3,8 +3,11 @@
   - puppet-barbican
   - puppet-ceilometer
   - puppet-cinder
+  - puppet-congress
   - puppet-designate
+  - puppet-ec2api
   - puppet-glance
+  - puppet-glare
   - puppet-gnocchi
   - puppet-heat
   - puppet-horizon
@@ -20,12 +23,16 @@
   - puppet-openstacklib
   - puppet-openstack_extras
   - puppet-oslo
+  - puppet-ovn
+  - puppet-panko
   - puppet-rally
   - puppet-sahara
   - puppet-swift
+  - puppet-tacker
   - puppet-tempest
   - puppet-tripleo
   - puppet-trove
   - puppet-vitrage
   - puppet-vswitch
+  - puppet-watcher
   - puppet-zaqar
