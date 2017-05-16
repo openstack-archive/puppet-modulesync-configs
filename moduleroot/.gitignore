@@ -9,6 +9,10 @@ coverage/
 *.swp
 *.iml
 openstack/
+
+# Files created by releasenotes build
+releasenotes/build
+.tox
 <% if ! @configs['paths'].nil? -%>
 <% @configs['paths'].each do |path| -%>
 <%= path %>
