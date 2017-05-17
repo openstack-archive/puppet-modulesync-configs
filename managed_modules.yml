@@ -3,9 +3,11 @@
   - puppet-barbican
   - puppet-ceilometer
   - puppet-cinder
+  - puppet-cloudkitty
   - puppet-congress
   - puppet-designate
   - puppet-ec2api
+  - puppet-freezer
   - puppet-glance
   - puppet-glare
   - puppet-gnocchi
@@ -25,6 +27,7 @@
   - puppet-oslo
   - puppet-ovn
   - puppet-panko
+  - puppet-qdr
   - puppet-rally
   - puppet-sahara
   - puppet-swift
