@@ -1,0 +1,9 @@
+Code-Review+2: Emilien Macchi <emilien@redhat.com>
+Code-Review+2: Mykyta Karpin <mkarpin@mirantis.com>
+Workflow+1: Mykyta Karpin <mkarpin@mirantis.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 17 May 2017 14:07:22 +0000
+Reviewed-on: https://review.openstack.org/465181
+Project: openstack/puppet-modulesync-configs
+Branch: refs/heads/master
