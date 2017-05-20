@@ -1,0 +1,9 @@
+Code-Review+2: Iury Gregory Melo Ferreira <iurygregory@gmail.com>
+Code-Review+2: zhongshengping <chdzsp@163.com>
+Workflow+1: zhongshengping <chdzsp@163.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Sat, 20 May 2017 09:08:13 +0000
+Reviewed-on: https://review.openstack.org/466356
+Project: openstack/puppet-modulesync-configs
+Branch: refs/heads/master
