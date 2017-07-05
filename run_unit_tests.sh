@@ -19,7 +19,4 @@ source $SCRIPT_DIR/functions
 install_module
 
 # run unit tests
-# TODO(aschultz): need to remove this once cookiecutter works under current
-# puppet
-exit 0
-#$GEM_HOME/bin/bundle exec rake spec SPEC_OPTS='--format documentation'
+$GEM_HOME/bin/bundle exec rake spec SPEC_OPTS='--format documentation'
