@@ -1,0 +1,9 @@
+Code-Review+2: zhongshengping <chdzsp@163.com>
+Code-Review+2: Alex Schultz <aschultz@redhat.com>
+Workflow+1: Alex Schultz <aschultz@redhat.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Mon, 06 Nov 2017 13:57:32 +0000
+Reviewed-on: https://review.openstack.org/509665
+Project: openstack/puppet-modulesync-configs
+Branch: refs/heads/master
