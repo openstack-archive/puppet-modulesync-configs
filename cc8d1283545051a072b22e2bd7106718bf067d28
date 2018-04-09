@@ -1,0 +1,9 @@
+Code-Review+2: Emilien Macchi <emilien@redhat.com>
+Code-Review+2: Mohammed Naser <mnaser@vexxhost.com>
+Workflow+1: Mohammed Naser <mnaser@vexxhost.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Mon, 09 Apr 2018 14:46:34 +0000
+Reviewed-on: https://review.openstack.org/559217
+Project: openstack/puppet-modulesync-configs
+Branch: refs/heads/master
