@@ -1,13 +1,13 @@
 # Puppet-modulesync-configs
 
 This repository contains default configuration for
-[modulesync](http://github.com/puppetlabs/modulesync) for OpenStack puppet
+[modulesync](https://github.com/voxpupuli/modulesync) for OpenStack puppet
 modules. Changes to this repository should be synced with modulesync across all
 of the OpenStack puppet modules. It can also be used as an example for creating
 default configuration for other community modules.
 
 A full description of ModuleSync can be found in [ModuleSync's
-README](https://github.com/puppetlabs/modulesync). This README describes how the
+README](https://github.com/voxpupuli/modulesync). This README describes how the
 templates are rendered in the OpenStack puppet configuration.
 
 
