@@ -1,9 +1,4 @@
 ---
-Gemfile:
-  required:
-    ':development, :test, :system_tests':
-      - gem: 'puppet-openstack_spec_helper'
-        git: 'https://git.openstack.org/openstack/puppet-openstack_spec_helper'
 Rakefile:
   default_disabled_lint_checks:
   - '80chars'
