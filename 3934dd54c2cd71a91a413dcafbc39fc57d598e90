@@ -1,0 +1,9 @@
+Code-Review+2: Emilien Macchi <emilien@redhat.com>
+Code-Review+2: zhongshengping <chdzsp@163.com>
+Workflow+1: zhongshengping <chdzsp@163.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Thu, 19 Jul 2018 06:18:16 +0000
+Reviewed-on: https://review.openstack.org/583628
+Project: openstack/puppet-modulesync-configs
+Branch: refs/heads/master
