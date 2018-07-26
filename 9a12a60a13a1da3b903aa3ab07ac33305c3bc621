@@ -1,0 +1,8 @@
+Code-Review+2: Tobias Urdin <tobias@busybox.se>
+Workflow+1: Tobias Urdin <tobias@busybox.se>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Thu, 26 Jul 2018 20:57:12 +0000
+Reviewed-on: https://review.openstack.org/586000
+Project: openstack/puppet-modulesync-configs
+Branch: refs/heads/master
