@@ -131,3 +131,9 @@ example,
 spec/acceptance/nodesets/sles-11sp1-x64.yml
   delete: true
 ```
+
+
+Repository
+-------------
+
+* https://github.com/openstack/puppet-modulesync-configs.git
