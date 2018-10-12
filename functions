@@ -11,6 +11,7 @@ install_module() {
       git clone git://git.openstack.org/openstack/puppet-openstack-cookiecutter openstack/puppet-openstack-cookiecutter
   fi
   cd openstack/puppet-openstack-cookiecutter
+  export PUPPET_GEM_VERSION="~> $PUPPET_MAJOR_VERSION"
   source functions
   prepare_environment
 }
