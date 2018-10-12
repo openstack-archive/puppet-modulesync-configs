@@ -1,0 +1,8 @@
+Code-Review+2: zhongshengping <chdzsp@163.com>
+Workflow+1: zhongshengping <chdzsp@163.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Fri, 12 Oct 2018 08:25:54 +0000
+Reviewed-on: https://review.openstack.org/609865
+Project: openstack/puppet-modulesync-configs
+Branch: refs/heads/master
