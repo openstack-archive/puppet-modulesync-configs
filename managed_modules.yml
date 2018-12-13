@@ -28,6 +28,7 @@
   - puppet-oslo
   - puppet-ovn
   - puppet-panko
+  - puppet-placement
   - puppet-qdr
   - puppet-rally
   - puppet-sahara
