@@ -8,7 +8,20 @@
 # with:
 #
 # git config --global core.excludesfile '~/.gitignore'
+# test
 
-.bundled_gems/
-modules/
+pkg/
 Gemfile.lock
+vendor/
+spec/fixtures/
+.vagrant/
+.bundle/
+coverage/
+.idea/
+*.iml
+/openstack
+/log
+
+# Files created by releasenotes build
+releasenotes/build
+.tox
