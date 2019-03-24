@@ -6,9 +6,9 @@
 install_module() {
   if [ -e /usr/zuul-env/bin/zuul-cloner ] ; then
       /usr/zuul-env/bin/zuul-cloner --cache-dir /opt/git \
-          git://git.openstack.org openstack/puppet-openstack-cookiecutter
+          https://git.openstack.org openstack/puppet-openstack-cookiecutter
   else
-      git clone git://git.openstack.org/openstack/puppet-openstack-cookiecutter openstack/puppet-openstack-cookiecutter
+      git clone https://git.openstack.org/openstack/puppet-openstack-cookiecutter openstack/puppet-openstack-cookiecutter
   fi
   cd openstack/puppet-openstack-cookiecutter
   source functions
