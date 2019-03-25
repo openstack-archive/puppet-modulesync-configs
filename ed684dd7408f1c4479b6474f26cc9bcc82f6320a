@@ -1,0 +1,9 @@
+Code-Review+2: Tobias Urdin <tobias.urdin@binero.se>
+Code-Review+2: Emilien Macchi <emilien@redhat.com>
+Workflow+1: Emilien Macchi <emilien@redhat.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Mon, 25 Mar 2019 13:33:52 +0000
+Reviewed-on: https://review.openstack.org/646963
+Project: openstack/puppet-modulesync-configs
+Branch: refs/heads/master
