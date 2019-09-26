@@ -1,7 +1,0 @@
----
-Rakefile:
-  default_disabled_lint_checks:
-  - '80chars'
-  - 'class_inherits_from_params_class'
-  - 'only_variable_string'
-  - 'disable_quoted_booleans'

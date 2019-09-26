@@ -1,7 +1,0 @@
----
-namespace: openstack
-git_base:  ssh://jdoe@review.openstack.org:29418/
-branch: msync_foo
-remote_branch: refs/publish/master/msync_foo
-# see https://github.com/puppet-community/modulesync/blob/master/contrib/openstack-commit-msg-hook.sh
-pre_commit_script: openstack-commit-msg-hook.sh
